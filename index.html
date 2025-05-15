@@ -4,16 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Projeto Portfólio">
-        <meta name="author" content="Generation Brasil">
+        <meta name="author" content="Guilherme Lima Sousa Oliveira">
         <meta name="keywords" content="HTML, CSS, JavaScript">
         <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+		<link rel="stylesheet" href="./assets/css/style.css">
         <title>Meu Perfil</title>
     </head>
 	<body>
 		<header>
-			<div id="header_content">
+			<div id="header_content" class="flex">
 				<div id="titulo">
-                    <h1>Guilherme Lima S. Oliveira</h1>
+                    <h1 class="Titulo">Guilherme Lima S. Oliveira</h1>
                 </div>
                 <div id="menu">		
                     <nav>
@@ -30,18 +31,17 @@
 			</div>  
 		</header>
 		<main>
-            <section id="about">
-				<h2>Sobre O Guilherme Lima </h2>
-				<div id="conteudo">
+            <section id="about" class="flex_start">
+				<h2 class="Sobre">Sobre Guilherme Lima </h2>
+				<div id="conteudo" class="flex">
 					<img
 						src="./assets/img/user_01.svg"
 						alt="Foto do criador desse conteudo"
                         width="200"
 					/>
 					<article id="sobre_texto">
-						<p>
-							Olá, sou Guilherme Lima, tenho 19 anos e atualmente
-							participo do bootcamp da Generation Brasil, com foco em desenvolvimento Java.
+						<p class="sobre_texto">
+							Olá, sou Guilherme Lima, tenho 19 anos
 							Desde pequeno, sempre fui curioso por tecnologia,
 							meu interesse começou nos jogos e cresceu conforme explorava e aprendia mais sobre computadores.
 
@@ -49,9 +49,9 @@
 					</article>
 				</div>
             </section>            
-            <section id="video">
-				<h2>Meu vídeo favorito:</h2>
-				<div class="youtube">
+            <section id="video" class="flex_start">
+				<h2 class="video">Meu vídeo favorito:</h2>
+				<div class="youtube" class="flex">
 					<iframe
 						width="560"
 						height="315"
@@ -63,18 +63,18 @@
 				</div>  
             </section>
         </main>
-		<footer>
-                        <section id="redes_sociais">
-                            <a href="https://www.linkedin.com/in/guilherme-lima-sousa-oliveira/">
-                                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
-                            </a>
-                            <a href="https://github.com/Guilhermelso0905">
-                                <img src="assets/img/github.svg" alt="Github" />
-                            </a>       
-                    </section>       
-                    <h3>
-                        Feito com 🧡 por Guilherme Lima  - 2025
-                    </h3>        
+		<footer class="flex">
+                <section id="redes_sociais">
+                    <a href="https://www.linkedin.com/in/guilherme-lima-sousa-oliveira/">
+                        <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                    <a href="https://github.com/Guilhermelso0905">
+                        <img src="assets/img/github.svg" alt="Github" />
+                    </a>       
+                </section>       
+                <h3 class="Rodapé">
+                    Feito com 🧡 por Guilherme Lima  - 2025
+                </h3>        
         </footer>        
 	</body>
 </html>

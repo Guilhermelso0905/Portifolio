@@ -7,6 +7,8 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 
@@ -14,11 +16,11 @@
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <!-- Seu nome -->
-                <h1>Guilherme Lima S. Oliveira</h1>
+                <h1 class="Titulo">Guilherme Lima S. Oliveira</h1>
             </div>
 
             <!-- Conteudo do Menu da Página (header) -->
@@ -43,7 +45,7 @@
     <main>
 
         <!-- Seção Formulário de Contato e Redes Sociais -->
-        <section id="contact">
+        <section id="contact" class="flex">
 
             <!-- Seção do Formulário-->
             <form action="#" method="submit" id="formulario">
@@ -67,11 +69,12 @@
             </form>
 
             <!-- Seção do Google Maps -->
-            <article id="mapa">
-                <article id="mapa">
+            <section id="mapa" class="flex_start">
 
+                <div class="endereço">
                     <p>Martins Osvaldo Sander, 476</p>
                     <p>Monte Mor - SP</p>
+                </div>
 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837.1395061904122!2d-47.275961443402295!3d-22.939949394786264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bac1b27ee01f%3A0x194a5e4ac8a7f61!2sR.%20Martins%20Osvaldo%20Sander%2C%20446-476%2C%20Monte%20Mor%20-%20SP%2C%2013190-000!5e0!3m2!1spt-BR!2sbr!4v1747092302329!5m2!1spt-BR!2sbr"
@@ -83,14 +86,12 @@
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
 
-                </article>
-
-            </article>
+            </section>
         </section>
     </main>
 
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
